@@ -4,6 +4,12 @@ import {FiSettings} from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 
+import {Navbar, Footer, Sidebar, ThemeSetting} from './components';
+
+import {Ecommerce, Employees, Customers, Orders, Kanban, Editor, Calendar, ColorPicker, Line, Bar, Area, Pie, Financial, ColorMapping, Pyramid, Stacked} from './pages';  
+
+
+
 import './App.css';
 
 const App = () => {
@@ -24,11 +30,11 @@ const App = () => {
           </div>
           {activeMenu ? (
             <div className='w-72 fixed sidebar dark:bg-secondary-dark-bg bg-white' >
-              Sidebar
+              <Sidebar />
             </div>
           ) : (
             <div className='w-0 dark:bg-secondary-dark-bg'>
-              Sidebar
+              <Sidebar />
             </div>
           )}
 
