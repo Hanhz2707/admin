@@ -48,7 +48,7 @@ const App = () => {
               <Navbar />
             </div>
 
-          </div>
+          
 
           <div>
             <Routes>
@@ -85,6 +85,7 @@ const App = () => {
               {/* Tables */}
 
             </Routes>
+          </div>
           </div>
 
         </div>
