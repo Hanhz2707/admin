@@ -49,7 +49,7 @@ const Sidebar = () => {
             tracking-tight
             dark:text-white
             text-slate-900'>
-              <SiShopware /> <span>Shoppy</span>
+              <SiShopware /> <span>HANTECH</span>
 
             </Link>
 
